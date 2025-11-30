@@ -5,7 +5,7 @@ const FeaturesSection = () => {
     {
       icon: Users,
       title: "Alumni Directory",
-      description: "Search and connect with 50,000+ alumni across industries and locations worldwide.",
+      description: "Search and connect with 42,000+ alumni across industries and locations worldwide.",
     },
     {
       icon: Network,
