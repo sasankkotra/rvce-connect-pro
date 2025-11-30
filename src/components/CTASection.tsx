@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   const benefits = [
-    "Access to 50,000+ alumni network",
+    "Access to 42,000+ alumni network",
     "Exclusive job opportunities",
     "Free mentorship sessions",
     "Global events & meetups",

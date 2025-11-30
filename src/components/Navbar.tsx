@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import rvceLogo from "@/assets/rvce-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 text-primary-foreground" />
-            </div>
+            <img src={rvceLogo} alt="RVCE Logo" className="w-10 h-10 object-contain" />
             <div className="hidden sm:block">
               <span className="font-display font-semibold text-lg text-foreground">RVCE</span>
               <span className="text-muted-foreground text-sm ml-1">Alumni</span>

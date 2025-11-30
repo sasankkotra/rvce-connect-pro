@@ -3,7 +3,7 @@ import { ArrowRight, Users, Briefcase, BookOpen } from "lucide-react";
 
 const HeroSection = () => {
   const stats = [
-    { number: "50,000+", label: "Alumni Network", icon: Users },
+    { number: "42,000+", label: "Alumni Network", icon: Users },
     { number: "1,200+", label: "Companies", icon: Briefcase },
     { number: "85%", label: "Placement Rate", icon: BookOpen },
   ];
@@ -45,7 +45,7 @@ const HeroSection = () => {
           {/* Subtitle */}
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-primary-foreground/70 mb-10 animate-fade-up" style={{ animationDelay: '0.2s' }}>
             Join the RVCE alumni community to access mentorship opportunities, 
-            job postings, and a network of accomplished professionals across the globe.
+            job postings, and a network of 42,000+ accomplished professionals across the globe.
           </p>
 
           {/* CTA Buttons */}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { GraduationCap, Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import rvceLogo from "@/assets/rvce-logo.png";
 
 const Footer = () => {
   const footerLinks = {
@@ -37,9 +38,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center">
-                <GraduationCap className="w-7 h-7 text-navy-dark" />
-              </div>
+              <img src={rvceLogo} alt="RVCE Logo" className="w-12 h-12 object-contain bg-primary-foreground rounded-xl p-1" />
               <div>
                 <span className="font-display font-bold text-xl">RVCE Alumni</span>
                 <p className="text-primary-foreground/60 text-sm">Stay Connected Forever</p>
